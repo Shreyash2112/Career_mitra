@@ -1,0 +1,117 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0; /* Ensure no extra margin */
+  overflow: auto; /* Allow scrolling */
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+header {
+  background-color: #ebb4f8;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #444;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: #666;
+}
+
+.types {
+  color: white;
+  text-decoration: none;
+}
+
+.types:hover {
+  color: rgb(127, 127, 255);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative; /* Adjust position to relative */
+  width: 100%;
+}
+
+main {
+  background-color: #000000;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex: 1;
+}
+
+main h1 {
+  padding: 10px 0;
+}
+
+main p {
+  text-align: justify;
+  color: rgb(198, 198, 198);
+}
+
+main h2 {
+  text-align: center;
+}
+
+main p:nth-of-type(2) {
+  color: rgb(190, 190, 190);
+  text-align: center;
+}
+
+main div {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  padding-top: 20px;
+  font-size: 1.4em;
+  color: white;
+}
+
+main br {
+  padding: 10px;
+}

@@ -1,0 +1,102 @@
+ body,
+    h1,
+    h2,
+    h3,
+    p,
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Basic styling */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color:  rgb(0, 0, 0); 
+        color: #fff;
+    }
+
+    header {
+        background-color: #ebb4f8;
+        color: #000000;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        background-color: #444;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    nav ul li a:hover {
+        background-color: #666;
+    }
+
+    .linkedin-button {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #0077b5; 
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  .linkedin-button:hover {
+      background-color: #005e91;
+  }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #444; 
+        color: #fff;
+    }
+
+    th, td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #333; 
+    }
+
+    tr:nth-child(even) {
+        background-color: #555; 
+    }
+
+    tr:hover {
+        background-color: #666;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }

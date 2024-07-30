@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-9th,10th</title>
+    <link rel="stylesheet" href="CSS\quiz.css" class="css" />
+  </head>
+  <body>
+    <header style="padding: 20px 0px 0px 50px">
+      <a href="index.html"
+        ><button style="font-size: 15px; padding: 5px; border-radius: 10px">
+          ← Back to Home
+        </button>
+      </a>
+    </header>
+
+    <div class="app">
+      <h1>
+        Quiz :
+        <span style="color: green">Syllabus - All subjects of 10th</span>
+      </h1>
+      <div class="quiz">
+        <h2 id="question">Question goes here</h2>
+        <div id="answer-buttons">
+          <button class="btn">Ans 1</button>
+          <button class="btn">Ans 2</button>
+          <button class="btn">Ans 3</button>
+          <button class="btn">Ans 4</button>
+        </div>
+
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+
+    <table id="resultTable">
+      <tr>
+        <th>Subject</th>
+        <th>Score</th>
+        <th>Out of</th>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td id="Science" class="scores"></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Arts</td>
+        <td id="Arts" class="scores"></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Commerce</td>
+        <td id="Commerce" class="scores"></td>
+        <td>5</td>
+      </tr>
+    </table>
+
+    <footer>
+      <p>&copy; 2024 Team Career Mitra, GCOE Yavatmal</p>
+    </footer>
+    <script src="JavaScript\quiz_logicSSC.js"></script>
+  </body>
+</html>

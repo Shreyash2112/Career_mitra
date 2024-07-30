@@ -1,0 +1,124 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0; /* Ensure no extra margin */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+header {
+  background-color: #ebb4f8;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #444;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: #666;
+}
+
+.container {
+  height: calc(90vh - 80px); /* Adjusting height to fit the viewport minus header and footer */
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  width: 50%;
+  font-size: 20px;
+  margin-left: 7%; /* Adjust padding */
+  box-sizing: border-box;
+}
+
+.banner p {
+  margin-top: 10px; /* Adjust margin */
+  font-size: 25px;
+  color: gray;
+}
+
+.touchpad {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px; /* Adjust padding */
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.buttons button {
+  padding: 10px;
+  font-size: 25px;
+  background-color: #ffffff48;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 2px solid red;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
